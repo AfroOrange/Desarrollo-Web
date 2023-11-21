@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title> Formulario </title>
+    </head>
+    <body> 
+        <form action="">
+            <fieldset name="Formulario de inscripción">  
+                <legend> Formulario de inscripción</legend>
+                <label> DNI </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input required="">
+                <br>
+                <br>
+                <label> Nombre</label>
+                &nbsp;&nbsp;&nbsp;<input required="">
+                <br>
+                <br>
+                <label> Apellidos</label>
+                <input required="">
+                <br> 
+                <br>
+                <label> Telefono </label>
+                &nbsp;<input required="">
+                <br>
+                <br>
+                <b> Zona de Residencia </b>
+                <select name="Zona de residencia">
+                    <option value="Metropolitana">Metropolitana </option>
+                    <option value="Norte">Norte </option>
+                    <option value="Sur">Sur </option>
+                </select>
+            </fieldset>
+
+        <br>
+        <br>
+        
+        <fieldset name="Formalización de la inscripción">
+            <legend> Formalización de la inscripción</legend>
+            <table> 
+                <tr>
+                    <td> <b> Estudios previos</b></td>
+                </tr>
+                <tr> 
+                    <td> Elija un fichero  <label for="myfile">  </label> <input type="file" id="myfile" name="myfile"> </td>
+                </tr>
+                
+            </table>
+        <td> <br> <textarea name="area"></textarea></td>
+        <br>
+        <br>
+        <br>
+        <table> 
+            <tbody>
+                <b> Escoge los módulos en los que te matriculas</b>
+                <br> 
+                <br>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Modulos">
+                        Fundamentos de Hardware
+                    </td>
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Servicios de Red e Internet
+                    </td>
+                </tr>
+                <tr> 
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Gestión de Bases de Datos
+                    </td>
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Administración de Sistemas Operativos
+                    </td>
+                </tr>
+                <tr> 
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Implantación de Sistemas Operativos
+                    </td>
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Implantación de Aplicaciones Web
+                    </td>
+                </tr>
+                <tr> 
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Planificación y Administración de Redes
+                    </td>
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Administración de Sistemas Gestores de Bases de Datos
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                        <input type="checkbox" name="Modulos">
+                        Lenguajes de Marcas y Sistemas de Gestión de Información
+                    </td>
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Seguridad y Alta Disponibilidad 
+                    </td>
+                </tr>
+                <tr> 
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Formación y Orientación Laboral
+                    </td>
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Empresa e Iniciativa Emprendedora
+                    </td>
+                </tr>
+                <tr> 
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Proyecto de Administración de Sistemas Informáticos en Red
+                    </td>
+                    <td> 
+                        <input type="checkbox" name="Modulos">
+                        Formación en Centros de Trabajo
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </fieldset>
+    <br>
+    <fieldset name="Conocimientos previos">
+        <legend> Conocimientos previos </legend>
+        <table>
+            <tr>
+                <td><b> Selecciona los sistemas operativos:</b> <input type="checkbox" name="OS">Windows  <input type="checkbox" name="OS">Linux  <input type="checkbox" name="OS">BSD </td>
+            </tr>
+            <tr> 
+                <td><b> ¿Conoces lo que es un IDE?:</b> <input type="checkbox" name="IDE"> Sí <input type="checkbox" name="IDE"> No </td>
+            </tr>
+            <tr>
+                <td><b> Selecciona los idiomas que conozcas</b> <input type="checkbox" name="idioma"> Español <input type="checkbox" name="idioma">Inglés <input type="checkbox" name="idioma">Alemán &nbsp;&nbsp; ||&nbsp;&nbsp;<label> Otro </label> <input required=""> </td>
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset name="Envío">
+        <legend>Envío del formulario</legend>
+        <table> 
+            <input type="submit"> &nbsp;&nbsp;  <input type="reset"> 
+        </table>
+    </fieldset>
+    </form>
+    </body>
+</html>
