@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"> 
+        <title> Formulario de Reservas </title>
+    </head>
+    <body> 
+        <form action="">
+            <fieldset name="Petición de reserva">
+                <legend> <b>Datos Personales</b> </legend>
+                <label> Nombre </label><input required="">
+                <br>
+                <br>
+                <label> Apellidos </label><input required="">
+                <br>
+                <br>
+                <label> Teléfono de contacto </label><input required="">
+                <br>
+                <br>
+                <label> Email </label><input required="">
+                <br>
+                <br>
+                <label> Número de noches </label><input required="">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> <b>Datos de la reserva</b> </legend>
+                Fecha de entrada
+                <input type="date">
+                <br>
+                <br>
+                <input type="radio" name="habitación" value="simple"> Habitación simple
+                <input type="radio" name="habitación" value="doble"> Habitación doble
+                <input type="radio" name="habitación" value="matrimonio"> Habitación de matrimonio
+                <br>
+                <br>
+                <input type="checkbox" name="desayuno"> Desayuno
+                <input type="checkbox" name="comida"> Comida
+                <input type="checkbox" name="cena"> Cena
+                <input type="checkbox" name="cama supletoria"> Cama supletoria
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend> Comentarios adicionales </legend>
+                <textarea name="area"></textarea>
+            </fieldset>
+            <br>
+            <fieldset name="Envío">
+                <legend>Envío del formulario</legend>
+                <table> 
+                    <input type="submit"> &nbsp;&nbsp;  <input type="reset"> 
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
